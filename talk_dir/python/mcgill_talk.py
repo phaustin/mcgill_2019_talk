@@ -17,7 +17,7 @@
 
 # %% [markdown] {"toc": true, "slideshow": {"slide_type": "slide"}}
 # <h1>Table of Contents<span class="tocSkip"></span></h1>
-# <div class="toc"><ul class="toc-item"><li><span><a href="#Part-1----Infrastructure" data-toc-modified-id="Part-1----Infrastructure-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Part 1 -- Infrastructure</a></span></li><li><span><a href="#Part-2----Examples" data-toc-modified-id="Part-2----Examples-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Part 2 -- Examples</a></span></li><li><span><a href="#Some-history" data-toc-modified-id="Some-history-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Some history</a></span></li><li><span><a href="#Infrastructure" data-toc-modified-id="Infrastructure-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Infrastructure</a></span><ul class="toc-item"><li><span><a href="#Linux-kernel" data-toc-modified-id="Linux-kernel-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Linux kernel</a></span></li><li><span><a href="#Git-and-Github" data-toc-modified-id="Git-and-Github-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Git and Github</a></span></li><li><span><a href="#Conda-forge" data-toc-modified-id="Conda-forge-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Conda-forge</a></span></li><li><span><a href="#Jupyter-and-jupytext" data-toc-modified-id="Jupyter-and-jupytext-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Jupyter and jupytext</a></span></li><li><span><a href="#Cocalc,-nbgrader-and-nbsphinx" data-toc-modified-id="Cocalc,-nbgrader-and-nbsphinx-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Cocalc, nbgrader and nbsphinx</a></span></li></ul></li><li><span><a href="#Examples" data-toc-modified-id="Examples-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Examples</a></span><ul class="toc-item"><li><span><a href="#Inspiration" data-toc-modified-id="Inspiration-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Inspiration</a></span></li><li><span><a href="#Large-class,-2nd-year" data-toc-modified-id="Large-class,-2nd-year-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Large class, 2nd year</a></span></li><li><span><a href="#Smaller-class,-3rd-and-4th-year" data-toc-modified-id="Smaller-class,-3rd-and-4th-year-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Smaller class, 3rd and 4th year</a></span></li><li><span><a href="#Grad/post-doc-workshop" data-toc-modified-id="Grad/post-doc-workshop-5.4"><span class="toc-item-num">5.4&nbsp;&nbsp;</span>Grad/post-doc workshop</a></span></li></ul></li><li><span><a href="#What's-next?" data-toc-modified-id="What's-next?-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>What's next?</a></span></li></ul></div>
+# <div class="toc"><ul class="toc-item"><li><span><a href="#Part-1----Infrastructure" data-toc-modified-id="Part-1----Infrastructure-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Part 1 -- Infrastructure</a></span></li><li><span><a href="#Part-2----Examples" data-toc-modified-id="Part-2----Examples-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Part 2 -- Examples</a></span></li><li><span><a href="#Some-history" data-toc-modified-id="Some-history-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Some history</a></span></li><li><span><a href="#Infrastructure" data-toc-modified-id="Infrastructure-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Infrastructure</a></span><ul class="toc-item"><li><span><a href="#Linux-kernel" data-toc-modified-id="Linux-kernel-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Linux kernel</a></span></li><li><span><a href="#Git-and-Github" data-toc-modified-id="Git-and-Github-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Git and Github</a></span></li><li><span><a href="#Conda-forge" data-toc-modified-id="Conda-forge-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Conda-forge</a></span></li><li><span><a href="#Jupyter-and-jupytext" data-toc-modified-id="Jupyter-and-jupytext-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Jupyter and jupytext</a></span></li><li><span><a href="#Cocalc,-nbgrader-and-nbsphinx" data-toc-modified-id="Cocalc,-nbgrader-and-nbsphinx-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Cocalc, nbgrader and nbsphinx</a></span></li></ul></li><li><span><a href="#Examples" data-toc-modified-id="Examples-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Examples</a></span><ul class="toc-item"><li><span><a href="#Inspiration" data-toc-modified-id="Inspiration-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Inspiration</a></span></li><li><span><a href="#Large-class,-2nd-year" data-toc-modified-id="Large-class,-2nd-year-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Large class, 2nd year</a></span></li><li><span><a href="#Smaller-class,-3rd-and-4th-year" data-toc-modified-id="Smaller-class,-3rd-and-4th-year-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Smaller class, 3rd and 4th year</a></span></li><li><span><a href="#Grad/post-doc-workshop" data-toc-modified-id="Grad/post-doc-workshop-5.4"><span class="toc-item-num">5.4&nbsp;&nbsp;</span>Grad/post-doc workshop</a></span></li></ul></li><li><span><a href="#Take-home-points" data-toc-modified-id="Take-home-points-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Take home points</a></span></li><li><span><a href="#What's-next?" data-toc-modified-id="What's-next?-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>What's next?</a></span></li></ul></div>
 
 # %% {"slideshow": {"slide_type": "skip"}}
 from IPython.display import Image
@@ -78,7 +78,7 @@ Image(filename='figures/bams_ref.png')
 # * 2005: [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) begins [Git development](https://en.wikipedia.org/wiki/Git) 
 #
 # * 2008: [Github founded](https://en.wikipedia.org/wiki/GitHub), in 2018 it hosted 28 million users and 57 million repositories
-# * Distributed version control makes possible the:
+# * Distributed version control makes possible the
 #     - [pull request workflow](https://yangsu.github.io/pull-request-tutorial/)
 
 # %% [markdown] {"slideshow": {"slide_type": "subslide"}}
@@ -155,22 +155,33 @@ Image(filename='figures/bams_ref.png')
 #
 # * [Parallel python tutorial](https://phaustin.github.io/parallel_python_course/)
 # * Introduce the [pangeo software stack](https://docs.google.com/presentation/d/1evNXCddIllXUt4a5jKfmlO2197sp8T6I9L650cYZcsk/edit#slide=id.g4f72134f6b_0_84),
-#   particularly [dask](http://docs.dask.org/en/latest/), [xarray](https://xarray.pydata.org/en/stable/) and [zarr](https://zarr.readthedocs.io/en/stable/). (see this [pangeo notebook server](https://binder.pangeo.io/))
+#   particularly [dask](https://medium.com/pangeo/dask-jobqueue-d7754e42ca53), [xarray](https://xarray.pydata.org/en/stable/) and [zarr](https://zarr.readthedocs.io/en/stable/). (see this [pangeo notebook server](https://medium.com/pangeo/pangeo-meets-binder-2ea923feb34f®))
 # * 20 UBC HPC focussed grad students/postdocs
 # * Half day, using notebooks and Compute Canada cluster
 
 # %% [markdown] {"slideshow": {"slide_type": "slide"}}
-# ## What's next?
+# ## Take home points
 #
+# Jupyter notebooks plus conda-forge and github.
+#
+# * Make active learning possible at scale.  Costs to students are
+#   similar to the price they are paying for textbooks (cocalc plus a tablet/chromebook)
+#   
+# * In-class sessions and assignments deal with working examples of realistic problems and
+#   best-practices for production computing
+#
+# * Use the same workflow for both research and teaching, and make research reproducible by
+#   default.
+#   
+
+# %% [markdown] {"slideshow": {"slide_type": "slide"}}
+# ## What's next?
 #
 # * I am writing an instructor's guide to teaching with Jupyter notebooks
 #
-# * I'd like to explore collaborative notebook development for UCAR member institutions via the UCAR members mailing list
+# * I'd like to start a github repository for collaborative notebook development 
+#   for UCAR member institutions, watch the UCAR members/ACCRU mailing lists
 #
 # * Questions/interest/want to help?  Email me at paustin@eoas.ubc.ca
 #
 # > "The future is already here — it's just not very evenly distributed." -- William Gibson
-
-# %%
-
-# %%

@@ -179,8 +179,8 @@ Image(filename='figures/bams_ref.png')
 #
 # * I am writing an instructor's guide to teaching with Jupyter notebooks
 #
-# * I'd like to start a github repository for collaborative notebook development 
-#   for UCAR member institutions, watch the UCAR members/ACCRU mailing lists
+# * EOAS is creating a github repository for collaborative notebook development 
+#   focussing on UCAR/ACCRU institutions, watch the UCAR members/ACCRU mailing lists
 #
 # * Questions/interest/want to help?  Email me at paustin@eoas.ubc.ca
 #

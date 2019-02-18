@@ -177,6 +177,8 @@ Image(filename='figures/bams_ref.png')
 # %% [markdown] {"slideshow": {"slide_type": "slide"}}
 # ## What's next?
 #
+# * A good resource for Jupyter news: [tracking jupyter](https://tinyletter.com/TrackingJupyter/archive)
+#
 # * I am writing an instructor's guide to teaching with Jupyter notebooks
 #
 # * EOAS is creating a github repository for collaborative notebook development 
